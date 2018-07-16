@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title> Tutorial CSS </title>
+        <style>
+            h1{
+                font-family: Arial;
+                font-size:30;
+                color:blue; 
+            }
+            
+        </style>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: lightblue;
+            }
+        
+        </style>
+        < h2 > Preenchimento de CSS </ h2 >
+        < p > Como < b > preenchimento </ b > as propriedades CSS são usadas para aumentar o espaço em branco </ p >
+        < p > Com CSS, você tem controle total sobre o preenchimento. As propriedades para definir o preenchimento de cada lado de um elemento (superior, direita, inferior e esquerda). </ P >
+        < h2 > Preenchimento - Lados Individuais </ h2 >
+        < p > CSS tem propriedades para especificar o preenchimento para cada lado de um elemento: </ p >
+        < ul >
+            < li > < b > padding-top </ b > </ li >
+            < li > < b > preenchimento à direita </ b > </ li >
+            < li > < b > preenchimento de fundo </ b > </ li >
+            < li > < b > preenchimento à esquerda </ b > </ li >
+        </ ul >
+        < p > Todas as propriedades de preenchimento podem ter os seguintes valores: </ p >
+        < ul >
+            < li > comprimento - especifica um preenchimento em px, pt, cm, etc. </ li >
+            < li >% - especifica um preenchimento em% da largura do elemento contido </ li >
+            < li > herdar - especifica o preenchimento do pai pai </ li >
+        
+        </ ul >
+        < p > < b > Nota: </ b > Valores negativos não são permitidos. </ p >
+        < p > O exemplo a seguir define um preenchimento diferente para todos os quatro lados de um elemento < u > div </ u >: </ p >
+        < h3 > Exemplo </ h3 >
+        < img  src="imagens/ImagemPreenchimento1.png">
+        < h2 > Preenchimento - Propriedade de taquigrafia </ h2 >
+        < p > Para encurtar o código, é possível especificar todas as propriedades de preenchimento em uma propriedade. </ p >
+        < p > A < b > preenchimento </ b > é uma propriedade abreviada para as propriedades de preenchimento de indivíduos: </ p >
+        < ul >
+            < li > < b > padding-top </ b > </ li >
+            < li > < b > preenchimento à direita </ b > </ li >
+            < li > < b > preenchimento de fundo </ b > </ li >
+            < li > < b > preenchimento à esquerda </ b > </ li >
+            
+        </ ul >
+        < p > Então, aqui está como funciona: </ p >
+        < p > A opção < b > padding </ b > tem quatro valores: </ p >
+        < ul >
+            < li > < b > preenchimento: 25 px 50 px 75 px x 100 px; </ b > </ li >
+            < ul >
+                < li > preenchimento superior é 25px </ li >
+                < li > preenchimento à direita de 50 px </ li >
+                < li > preenchimento inferior é de 75 px </ li >
+                < li > preenchimento do lado esquerdo é de 100 px </ li >
+            </ ul >
+        </ ul >
+        < h3 > Exemplo </ h3 >
+        < img  src="imagens/ImagemPreenchimento2.png">
+        < p > Se a < b > padding </ b > possui os três valores: </ p >
+        < ul >
+            < li > < b > preenchimento: 25 px 50 px 75 px; </ b > </ li >
+            < ul >
+                < li > preenchimento superior é 25px </ li >
+                < li > os entalhes direito e são esquerdos 50px </ li >
+                < li > preenchimento inferior é de 75 px </ li >
+            </ ul >
+        </ ul >
+        < h3 > Exemplo </ h3 >
+        < img src="imagens/ImagemPreenchimento3.png">
+        < p > Se um < b > preenchimento </ b > é de dois terrenos: </ p >
+        < ul >
+            < li > < b > preenchimento: 25 px 50 px; </ b > </ li >
+            < ul >
+                < li > os revestimentos superior e inferior são de 25px </ li >
+                < li > os entalhes direito e são esquerdos 50px </ li >
+            </ ul >
+        </ ul >
+        < h3 > Exemplo </ h3 >
+        < img src="imagens/ImagemPreenchimento4.png">
+        < p > Se um < b > preenchimento </ b > propriedade tem um valor: </ p >
+        < ul >
+            < li > < b > preenchimento: 25px; </ b > </ li >
+            < ul >
+                < li > todas as almofadas são 25px </ li >
+            </ ul >
+        </ ul >
+        < h3 > Exemplo </ h3 >
+        < img src="imagens/ImagemPreenchimento5.png">
+        < h2 > Preenchimento e largura do elemento </ h2 >
+        < p > A propriedade < b > width </ b > CSS especifica a área do conteúdo do elemento. A área de conteúdo é um componente dentro do preenchimento, borda e margem de um elemento (o modelo de caixa). </ P >
+        < p > Portanto, se um plano teve uma freqüência, o recebimento adicionou este elemento será adicionado à largura total do elemento. Isso é um resultado indesejável. </ P >
+        < p > No exemplo a seguir, o elemento < u > div </ u > recebe uma largura de 300px. No entanto, uma Largura verdadeira renderizada fazer elemento < u > div </ u > Será 350px (300px + 25px de preenchimento à Esquerda + 25px de preenchimento à Direita): </ p >
+        < h3 > Exemplo </ h3 >
+        < img src="imagens/ImagemPreenchimento6.png">
+        < p > Para manter uma largura de 300px, não importa uma quantidade de preenchimento, você pode usar uma caixa de dimensionamentopropriedade. Isso faz com que o elemento mantenha sua largura; Se você aumentar o preenchimento, o espaço de conteúdo disponível diminuirá. Aqui está um exemplo: </ p >
+        < h3 > Exemplo </ h3 >
+        < img src="imagens/ImagemPreenchimento7.png">
